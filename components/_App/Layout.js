@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
 		<>
 			<Head>
 				<title>
-					eLearniv - React Next.js Learning Management System
+					fast-lms - React Next.js Learning Management System
 				</title>
 				<meta
 					name="viewport"

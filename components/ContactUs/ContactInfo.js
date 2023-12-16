@@ -29,7 +29,7 @@ const ContactInfo = () => {
               Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a>
             </p>
             <p>
-              Mail: <a href="mailto:hello@eLearniv.com">hello@eLearniv.com</a>
+              Mail: <a href="mailto:hello@fast-lms.com">hello@fast-lms.com</a>
             </p>
           </li>
           <li>
