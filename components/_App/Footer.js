@@ -95,7 +95,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="bx bx-envelope"></i>
-                    <a href="mailto:hello@elearniv.com">hello@eLearniv.com</a>
+                    <a href="mailto:hello@fast-lms.com">hello@fast-lms.com</a>
                   </li>
                   <li>
                     <i className="bx bxs-inbox"></i>
@@ -111,9 +111,9 @@ const Footer = () => {
               <div className="col-lg-6 col-md-6">
                 <p>
                   <i className="bx bx-copyright"></i>
-                  {currentYear} eLearniv is Proudly Powered by{' '}
-                  <a target="_blank" href="https://envytheme.com/" rel="noreferrer">
-                    EnvyTheme
+                  {currentYear} fast-lms is Proudly Powered by{' '}
+                  <a target="_blank" href="https://OzoneTech.et/" rel="noreferrer">
+                    Ozone Technology
                   </a>
                 </p>
               </div>

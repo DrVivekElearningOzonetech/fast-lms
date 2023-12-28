@@ -1028,16 +1028,16 @@
   .terms-of-service-content .blockquote p, .terms-of-service-content blockquote p {
     font-size: 15px !important;
   }
-  .elearniv-grid-sorting {
+  .fast-lms-grid-sorting {
     text-align: center;
   }
-  .elearniv-grid-sorting .result-count {
+  .fast-lms-grid-sorting .result-count {
     margin-bottom: 13px;
   }
-  .elearniv-grid-sorting .ordering {
+  .fast-lms-grid-sorting .ordering {
     text-align: center;
   }
-  .elearniv-grid-sorting .ordering label {
+  .fast-lms-grid-sorting .ordering label {
     font-size: 14px;
   }
   .pagination-area {

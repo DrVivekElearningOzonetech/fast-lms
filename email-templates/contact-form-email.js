@@ -10,8 +10,8 @@ export const contactFormEmail = async (
 ) => {
 	// console.log(user.email)
 	const data = {
-		to: "shabbir@envytheme.com",
-		from: "eLearniv Online Courses <hello@envytheme.com>",
+		to: "mikigode@OzoneTech.et",
+		from: "fast-lms Online Courses <hello@OzoneTech.et>",
 		subject: "Contact Message",
 		html: `
         <!DOCTYPE html>
@@ -321,8 +321,8 @@ export const contactFormEmail = async (
                                     
                                     <p>
                                         Regards, <br />
-                                        eLearniv Support Team <br />
-                                        All Rights Reserved by eLearniv.com
+                                        fast-lms Support Team <br />
+                                        All Rights Reserved by fast-lms.com
                                     </p>
                                 </div>
                             </td>
@@ -341,7 +341,7 @@ export const contactFormEmail = async (
                             <tr>
                               <td style="text-align: center; padding-right: 0;">
                               <p style="text-align: center; margin-bottom: 0; margin-top: 5px">
-                                  <a href="http://eLearniv.com/" target="_blank" style="color: #3056de">www.eLearniv.com</a>
+                                  <a href="http://fast-lms.com/" target="_blank" style="color: #3056de">www.fast-lms.com</a>
                               </p>
                               </td>
                             </tr>
@@ -353,7 +353,7 @@ export const contactFormEmail = async (
                 </tr>
                 <tr>
                   <td class="bg_light" style="text-align: center;">
-                    <p>&copy;2022 eLearniv Support</p>
+                    <p>&copy;2022 fast-lms Support</p>
                   </td>
                 </tr>
               </table>
