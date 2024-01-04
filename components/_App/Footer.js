@@ -91,7 +91,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="bx bx-phone-call"></i>
-                    <a href="tel:+44587154756">+1 (123) 456 7890</a>
+                    <a href="tel:+918827269632">+918827269632</a>
                   </li>
                   <li>
                     <i className="bx bx-envelope"></i>
@@ -99,7 +99,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="bx bxs-inbox"></i>
-                    <a href="tel:+557854578964">+55 785 4578964</a>
+                    <a href="tel:+918827269632">+918827269632</a>
                   </li>
                 </ul>
               </div>
