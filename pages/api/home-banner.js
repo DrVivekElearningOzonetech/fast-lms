@@ -37,6 +37,7 @@ const handleGetRequest = async (req, res) => {
 			courses,
 		});
 	} catch (e) {
+		console.log(e);
 		res.status(400).json({
 			error_code: "get_my_courses",
 			message: e.message,

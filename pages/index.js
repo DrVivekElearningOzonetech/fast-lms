@@ -13,31 +13,31 @@ import Footer from "@/components/_App/Footer";
 import baseUrl from "@/utils/baseUrl";
 
 function Index({ courses, user }) {
-	return (
-		<>
-			<Navbar user={user} />
-			<MainBanner user={user} courses={courses} />
-			<Features />
-			<AboutUs />
-			<PopularCourses user={user} />
-			<FeedbackSliderWithFunFacts />
-			<GetInstantCourses user={user} />
-			<ViewAllCourses />
-			<Partner />
-			<SubscribeForm />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Navbar user={user} />
+      <MainBanner user={user} courses={courses} />
+      <Features />
+      <AboutUs />
+      <PopularCourses user={user} />
+      <FeedbackSliderWithFunFacts />
+      <GetInstantCourses user={user} />
+      <ViewAllCourses />
+      <Partner />
+      <SubscribeForm />
+      <Footer />
+    </>
+  );
 }
 
 // This gets called on every request
 export async function getServerSideProps() {
-	// Fetch data from external API
-	const res = await fetch(`${baseUrl}/api/home-banner`);
-	const { courses } = await res.json();
+  // Fetch data from external API
+  const res = await fetch(`${baseUrl}/api/home-banner`);
+  const { courses } = await res.json();
 
-	// Pass data to the page via props
-	return { props: { courses } };
+  // Pass data to the page via props
+  return { props: { courses: courses ?? null } };
 }
 
 export default Index;

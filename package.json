@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
-		"start": "next start",
+		"start": "NODE_ENV=development node server.js",
 		"lint": "next lint",
 		"model:generate": "env-cmd sequelize-cli model:generate",
 		"seed:generate": "env-cmd sequelize-cli seed:generate",
@@ -41,7 +41,6 @@
 		"react-countdown": "^2.3.5",
 		"react-dom": "18.2.0",
 		"react-hot-toast": "^2.3.0",
-		"react-jutsu": "^3.0.3",
 		"react-loading-skeleton": "^3.1.0",
 		"react-pdf": "^7.3.3",
 		"react-quill": "^2.0.0",
