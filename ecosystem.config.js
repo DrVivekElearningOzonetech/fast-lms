@@ -2,7 +2,6 @@ module.exports = {
     apps: [{
         name: 'fast-lms',
         script: 'npm',
-
         // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
         args: 'run start',
         instances: 1,
