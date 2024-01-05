@@ -13,7 +13,7 @@ export default {
 		database: process.env.DB_NAME_PROD,
 		host: process.env.DB_HOSTNAME_PROD,
 		port: process.env.DB_PORT_PROD,
-		logging: false,
 		dialect: "mysql",
+		logging: false,
 	},
 };
