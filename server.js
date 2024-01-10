@@ -3,7 +3,7 @@ const { parse } = require("url");
 const next = require("next");
 
 const dev = process.env.NODE_ENV !== "production";
-const hostname = '0.0.0.0';
+const hostname = 'localhost';
 const port = 3000;
 const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
@@ -24,6 +24,6 @@ app.prepare().then(() => {
       process.exit(1);
     })
     .listen(port, () => {
-      console.log(`app listening on port ${port}`);
+      console.log(`app listening on port ${hostname}:${port}`);
     });
 });
